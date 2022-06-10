@@ -15,7 +15,6 @@ public class SpringAwsApplication {
 	@GetMapping
 	public String applicationStatus() {
 		return "Application is up and running";
-
 	}
 
 	@GetMapping("/{name}")

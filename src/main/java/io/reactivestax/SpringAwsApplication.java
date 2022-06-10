@@ -14,7 +14,7 @@ public class SpringAwsApplication {
 
 	@GetMapping
 	public String applicationStatus() {
-		return "Application is up and running";
+		return "I am changing the code";
 	}
 
 	@GetMapping("/{name}")

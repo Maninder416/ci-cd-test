@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAY52ALHITUBUPKMXF
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: s3-maninder78143
